@@ -2,46 +2,60 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Cardtable is an online card game simulator that you can run in your browser. While it could support a variety of different games, it is currently focused on two cooperative Living Card Games (LCGs) by Fantasy Flight Games:
 
-## Getting Started
+- The Lord of the Rings LCG
+- Marvel Champions LCG
 
-Get started by **creating a new site**.
+For the purposes of this help document, I'll be using Marvel Champions. I will show any differences between the games when applicable, however!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Cardtable has no concept of rules or logic specific to a game. While this is what gives it the flexibility to support many different games, it means you will have to remember and apply the rules for the game you are playing.
 
-### What you'll need
+Let's discover **How to get started with Cardtable in less than 5 minutes**.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Open Cardtable
 
-## Generate a new site
+To get to cardtable - simply navigate to https://card-table.app in any web browser! Note that most of the testing of this app has been done in Chrome, but it should work with any browser.
 
-Generate a new Docusaurus site using the **classic template**.
+![Landing Page](/img/screenshots/landing.png)
 
-The classic template will automatically be added to your project after you run the command:
+## Choose a Game
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Open the `Select Game` dropdown and choose which game you want to play
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+![Select Game](/img/screenshots/select-game.png)
+![Game Launched](/img/screenshots/mc/mc-base.png)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Load a Deck by ID
 
-## Start your site
+Right click, or click the <img style={{height: "2rem", verticalAlign: "middle"}} src="/img/screenshots/menu-icon.png"/> menu button, then select `Load Deck by ID`
 
-Run the development server:
+![Menu Open](/img/screenshots/mc/mc-menu-open.png)
 
-```bash
-cd my-website
-npm run start
-```
+Enter an ID from the relevent deckbuilding site (https://marvelcbd.com for Marvel LCG and https://ringsdb.com for LOTR LCG) then hit `Enter` on your keyboard
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+![Deck Loader Open](/img/screenshots/mc/mc-loading-deck.png)
+![Deck Loaded](/img/screenshots/mc/mc-deck-loaded.png)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Load a Scenario
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Loading a Scenario is slightly different for the two games. For Marvel, you need to load multiple `Encounter Sets`. For LOTR LCG, you just need to load a single `Scenario`. To do either operation, right-click or open the menu, then select `Load Encounter Set` / `Load Scenario`.
+
+![Encounter Set Loader](/img/screenshots/mc/mc-load-encounter.png)
+![Scenario Loader](/img/screenshots/lotr/lotr-load-encounter.png)
+
+Then, you can either scroll through all the options, or start typing part of the name of the set you are looking for, and the list will display the options
+
+![Encounter Set Searching](/img/screenshots/mc/mc-encounter-search.png)
+![Scenario Searching](/img/screenshots/lotr/lotr-encounter-search.png)
+
+Finally, simply select the set you want to load, and the cards will load!
+
+![Encounter Set Loaded](/img/screenshots/mc/mc-encounter-loaded.png)
+![Scenario Loaded](/img/screenshots/lotr/lotr-encounter-loaded.png)
+
+## Enjoy!
+
+Now you can start playing! For more details on everything you can do in Cardtable, keep reading!
