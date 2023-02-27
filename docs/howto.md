@@ -30,7 +30,7 @@ Open the `Select Game` dropdown and choose which game you want to play
 
 ## Load a Deck by ID
 
-Right click, or click the <img style={{height: "2rem", verticalAlign: "middle"}} src="/img/screenshots/menu-icon.png"/> menu button, then select `Load Deck by ID`
+Right click, or click the <img style={{height: "2rem", verticalAlign: "middle"}} src="./img/screenshots/menu-icon.png"/> menu button, then select `Load Deck by ID`
 
 ![Menu Open](/img/screenshots/mc/mc-menu-open.png)
 
