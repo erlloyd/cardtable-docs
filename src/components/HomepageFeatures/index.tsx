@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/browser-website-svgrepo-com.svg').default,
     description: (
       <>
         If you have a web browser, you have everything you need to play some amazing
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Mobile / Touch support',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/tablet-svgrepo-com.svg').default,
     description: (
       <>
         Play on your desktop, laptop, tablet, or phone and access all the same features!
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Offline support',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/save-save-file-svgrepo-com.svg').default,
     description: (
       <>
         Did you ever wish you could play one of your card games offline? Well, now you can! After loading 
