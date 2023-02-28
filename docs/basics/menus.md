@@ -4,40 +4,46 @@ sidebar_position: 1
 
 # Menu and Options
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Learn about the game table and high level controls
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Changing your view
 
-## Create your first React Page
+### Zooming
+  To zoom in and out, simly use the scroll wheel on your mouse (Desktop / Laptop) or use "Pinch to zoom" on a touch device.
 
-Create a file at `src/pages/my-react-page.js`:
+### Pan vs. Select mode
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
+  If pan mode is selected
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+  ![Pan Mode](./img/pan-mode.png)
+  
+  Then on a Desktop / Laptop clicking, holding, and dragging anywhere other than a card or token will pan the game table. On a touch device, when Pan mode is selected, dragging anywhere other than a card or token will do the same
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+  If Pan mode is deselected, then clicking and dragging (Desktop) or dragging anywhere other than a card will show a select box so you can select multiple card stacks.
 
-## Create your first Markdown Page
+## Draw cards mode
 
-Create a file at `src/pages/my-markdown-page.md`:
+  If "Draw cards into hand" mode is selected
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+  ![Draw cards](./img/draw-cards-hand-mode.png)
 
-This is a Markdown page
-```
+  Then when you automatically draw cards off the top of a card stack, they will immediately go into the player's hand. Otherwise they will drop on the table.
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+## Snap to grid
+
+  If "Snap to grid" mode is selected
+
+  ![Snap to grid](./img/snap-grid.png)
+
+  Then when you drag a card stack and let go, the stack will "snap" to the nearest drop location. If this is off, the card will go whenever you let go of it.
+
+## Notes
+
+  When you click the "Notes" button
+
+  ![Notes](./img/notes.png)
+
+  A text box will open where you can enter notes that will be saved (on the current computer only). This is great if you need to leave and game and want to remember what you had just done
+
+## Undo / Redo
+  Click the Undo or Redo buttons to undo or redo the last action, respectively
