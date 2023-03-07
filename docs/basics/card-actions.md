@@ -72,6 +72,8 @@ In each game, there are certain statuses that cards can obtain, such as Stunned 
 
 However, cardtable supports the ability to put an arbitrary number of these statuses on each card.
 
+![Marvel Status](./img/mc-status.png) ![LOTR Status](./img/lotr-status.png)
+
 To add a status, click the `Status` menu, then the status you want to add (ending with a `+`). You can continue to add the status or remove it by selecting the status ending with a `-`.
 
 ## Numeric tokens on a card stack
@@ -85,6 +87,8 @@ To remove a token of type 1, 2, or 3, select it and type `Ctrl / Cmd + 4`, `Ctrl
 :::
 
 Numeric tokens are tokens that generally have many on a card during a game, such as Damage or Generic tokens in Marvel Champions or Resource or Progress tokens in LOTR LCG.
+
+![Marvel Numeric](./img/mc-numeric.png) ![LOTR Numeric](./img/lotr-numeric.png)
 
 To adjust the number of numeric tokens, select `Token`, and then the token type you want to add or remove
 
