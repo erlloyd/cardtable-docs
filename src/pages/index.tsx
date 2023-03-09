@@ -18,7 +18,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/howto">
-            🃏 Check out How to Play! 🃏
+            🃏 Learn How to Play! 🃏
+          </Link>
+        <Link
+            className={`button button--primary button--lg ${styles.linkButton}`}
+            to="https://card-table.app">
+            <span>Go play on card-table.app!</span>
           </Link>
         </div>
       </div>
