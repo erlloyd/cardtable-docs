@@ -1,5 +1,6 @@
 #config
 .docusaurus
+build
 
 # Logs
 logs

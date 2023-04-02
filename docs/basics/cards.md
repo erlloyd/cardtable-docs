@@ -10,7 +10,7 @@ Cards are the basic, most used item in cardtable!
 
 Cards can be stacked, and you will operate on a stack of cards as a single entity, so throughout the documentation I'll refer to "Card Stacks"
 
-You can tell the difference between a single card and a card stack, because the card stack has a slightly more "3d" look:
+You can tell the difference between a single card and a card stack, because the card stack has a slightly more "3d" look, along with a number at the top indicating the number of cards in the stack
 
 Single card
 
