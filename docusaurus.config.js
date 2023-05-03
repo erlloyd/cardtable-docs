@@ -80,6 +80,12 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            type: "doc",
+            docId: "keyboardshortcuts",
+            position: "left",
+            label: "Keyboard Shortcuts",
+          },
         ],
       },
       footer: {
@@ -103,6 +109,10 @@ const config = {
               {
                 label: "Multiplayer (Beta)",
                 to: "/docs/category/multiplayer-beta",
+              },
+              {
+                label: "Keyboard shortcuts",
+                to: "/docs/keyboardshortcuts",
               },
             ],
           },
