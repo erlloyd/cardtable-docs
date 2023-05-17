@@ -80,9 +80,9 @@ To add a status, click the `Status` menu, then the status you want to add (endin
 
 :::tip
 
-**Keyboard shortcut:** There are 3 different types of numeric tokens. To add a token of type 1, 2, or 3 to a card stack, select it and type `Ctrl / Cmd + 1`, `Ctrl / Cmd + 2`, or `Ctrl / Cmd + 3`.
+**Keyboard shortcut:** There are 3 different types of numeric tokens. To add a token of type 1, 2, 3, or 4 to a card stack, select it and type `Ctrl / Cmd / Alt + 1`, `Ctrl / Cmd / Alt + 2`, `Ctrl / Cmd / Alt + 3`, or `Ctrl / Cmd / Alt + 4`.
 
-To remove a token of type 1, 2, or 3, select it and type `Ctrl / Cmd + 4`, `Ctrl / Cmd + 5`, or `Ctrl / Cmd + 6`
+To remove a token of type 1, 2, 3, or 4 select it and type `Shift + 1`, `Shift + 2`, `Shift + 3`, or `Shift + 4`
 
 :::
 

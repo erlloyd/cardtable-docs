@@ -6,13 +6,11 @@ sidebar_position: 2
 
 This page will help you with setting up and playing a multiplayer game
 
-:::warning
-Currently multiplayer only supports 2 players at the same time
-:::
-
 ## Hosting a game
 
-Hosting a game is easy! If you are connected to the internet, every time you open the site, you are hosting your own game! You just need to provide your peer id to another player for them to connect
+Hosting a game is easy! If you are connected to the internet, Simply create a new game by selecting the `Multiplayer > Start hosting a new online game` entry.
+
+![New Online Game](./img/create-new-mp-game.gif)
 
 ### Sharing a game link
 
@@ -43,3 +41,9 @@ As mentioned before, there is a chance that the games on the two different brows
 :::warning
 If the resync is successful, you will replace your local game state with the state of the other player's game
 :::
+
+## Leaving
+
+If you would like to leave a multiplayer game, simply select the `Multiplayer -> Leave multiplayer game` option
+
+![Leave game](./img/leave-mp-game.gif)

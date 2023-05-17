@@ -34,8 +34,8 @@ These shortcuts become active when you have 1 (or more, for some commands) card 
 
 `1 - 9` &nbsp;&nbsp; Draw that number of cards from the stack, either into the current visible hand or onto the table, depending on the state of the "draw cards into hand" toggle
 
-`Ctrl / Cmd + 1, 2, or 3` &nbsp;&nbsp; Add 1 to one of the three main token types
+`Ctrl / Cmd / Alt + 1, 2, or 3` &nbsp;&nbsp; Add 1 to one of the three main token types
 
-`Ctrl / Cmd + 4, 5, or 6` &nbsp;&nbsp; Remove 1 from one of the three main toekn types
+`Shift + 1, 2, or 3` &nbsp;&nbsp; Remove 1 from one of the three main toekn types
 
 `A (held)` Dragging from a card to another card while holding down `A` draws an arrow between the cards
