@@ -76,15 +76,20 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/erlloyd/cardtable",
-            label: "GitHub",
-            position: "right",
-          },
-          {
             type: "doc",
             docId: "keyboardshortcuts",
             position: "left",
             label: "Keyboard Shortcuts",
+          },
+          {
+            href: "https://discord.gg/SabNUmtUPc",
+            label: "Discord",
+            position: "right",
+          },
+          {
+            href: "https://github.com/erlloyd/cardtable",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
