@@ -150,6 +150,10 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/erlloyd/cardtable",
               },
+              {
+                label: "Discord",
+                href: "https://discord.gg/SabNUmtUPc",
+              },
             ],
           },
         ],
