@@ -47,7 +47,19 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/erlloyd/cardtable-docs/blob-main",
+          editUrl: "https://github.com/erlloyd/cardtable-docs/tree/main",
+          feedOptions: {
+            type: "all",
+            copyright: `Copyright © ${new Date().getFullYear()} Cardtable.`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 100 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((_item, index) => index < 100),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

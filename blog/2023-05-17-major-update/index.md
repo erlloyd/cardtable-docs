@@ -2,7 +2,7 @@
 slug: new-release-mp-wotr
 title: Major update!
 authors: [erlloyd]
-tags: [cardtable, new_game, multiplayer]
+tags: [cardtable, new_game, multiplayer, site_news]
 ---
 
 I'm super excited to share some information on a major new release for Cardtable! This release has several small feature changes, a few big "under-the-cover" changes, and a new game type available!
