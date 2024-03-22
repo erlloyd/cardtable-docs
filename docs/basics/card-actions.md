@@ -8,7 +8,7 @@ Here are the common actions you will do after you've selected one or more card s
 
 > **_NOTE_** A lot of these operations can be performed either through the on-screen right menu (seen below), or by right-clicking on a card stack (on a Desktop / Laptop) or by keyboard shortcuts (on a Desktop / Laptop)
 
-![Card Menu](./img/card-menu.png)
+![Card Menu](./img/contextual-menu-3-22-2024.png)
 
 ## Drawing cards off a stack
 
@@ -29,6 +29,12 @@ To drag cards off the top of a stack with a mouse / touch, see [this](./cards#pu
 Select the `Draw` menu option, which will give you several suboptions
 
 ![Draw suboptions](./img/draw-suboptions.png)
+
+### Peek at Cards
+
+This will open a submenu that allows you to look at some of the top cards of the stack and reorder them, the draw them or put them on the top or bottom of your deck.
+
+![Peek](./img/peek.gif)
 
 ### Find Card
 

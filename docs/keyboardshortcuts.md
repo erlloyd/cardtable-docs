@@ -39,3 +39,7 @@ These shortcuts become active when you have 1 (or more, for some commands) card 
 `Shift + 1, 2, or 3` &nbsp;&nbsp; Remove 1 from one of the three main toekn types
 
 `A (held)` Dragging from a card to another card while holding down `A` draws an arrow between the cards
+
+## Random Shortcuts
+
+`R` &nbsp;&nbsp; When previewing a card that can be rotated 180 degrees (Star Wars Deckbuilding Game) rotate the card preview
